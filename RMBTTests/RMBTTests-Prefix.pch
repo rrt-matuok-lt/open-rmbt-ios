@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'RMBTTests' target in the 'RMBTTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <XCTest/XCTest.h>
+
+#endif
+
+#define T(msec) ((uint64_t)(msec * NSEC_PER_MSEC))
+#define RMBTLog(xx, ...) ((void)0)
