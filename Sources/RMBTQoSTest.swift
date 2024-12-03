@@ -24,7 +24,7 @@ enum RMBTQoSTestStatus: Int {
     }
 }
 
-@objc class RMBTQoSTest: Operation, @unchecked Sendable {
+@objc class RMBTQoSTest: Operation {
     static let kDefaultTimeoutNanos: UInt64 = 10 * NSEC_PER_SEC
     
     @objc var progress: RMBTProgress = RMBTProgress(totalUnitCount: 100)

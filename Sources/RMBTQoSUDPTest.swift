@@ -20,7 +20,7 @@ enum RMBTQoSUDPTestPacketFlag: Int {
     case awaitResponse = 3
 }
 
-class RMBTQoSUDPTest: RMBTQoSIPTest, @unchecked Sendable {
+class RMBTQoSUDPTest: RMBTQoSIPTest {
     static let kDefaultDelayNanos: Int64 = Int64(300 * NSEC_PER_MSEC)
     
     private var outPacketCount: UInt = 0

@@ -9,7 +9,7 @@
 import UIKit
 import CocoaAsyncSocket
 
-class RMBTQoSNonTransparentProxyTest: RMBTQoSCCTest, @unchecked Sendable {
+class RMBTQoSNonTransparentProxyTest: RMBTQoSCCTest {
     
     private var request: String?
     private var _result: String?

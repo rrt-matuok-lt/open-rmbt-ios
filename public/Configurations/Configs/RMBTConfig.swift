@@ -28,10 +28,10 @@ public class RMBTConfig {
         return "\(RMBT_URL_HOST)\(RMBT_CONTROL_SERVER_PATH)"
     }
 
-    var RMBT_URL_HOST: String { return "https://example.com" }
+    var RMBT_URL_HOST: String { return "https://matuok.pantera.dev" }
     // Control server base URL used when user has enabled the "IPv4-Only" setting
     // Ditto for the (debug) "IPv6-Only" setting
-    var RMBT_IPV6_URL_HOST: String { return "https://example.com" }
+    var RMBT_IPV6_URL_HOST: String { return "https://matuok.pantera.dev" }
 
     var RMBT_CONTROL_SERVER_PATH: String { return "/RMBTControlServer" }
     
@@ -53,16 +53,16 @@ public class RMBTConfig {
     static let RMBT_TEST_LOOPMODE_MAX_MOVEMENT_M = 10000
     
     // Note: $lang will be replaced by "de" is device language is german, or "en" in any other case:
-    static let RMBT_PROJECT_URL = "https://example.com/"
-    static let RMBT_PROJECT_EMAIL = "mail@example.com"
-    static let RMBT_PRIVACY_TOS_URL = "https://example.com/$lang/tc_ios.html"
+    static let RMBT_PROJECT_URL = "https://matuok.pantera.dev/"
+    static let RMBT_PROJECT_EMAIL = "mail@lexita.lt"
+    static let RMBT_PRIVACY_TOS_URL = "https://matuok.pantera.dev/$lang/tc_ios.html"
 
     // Note: stats url can can be replaced with the /settings response from control server
-    static let RMBT_STATS_URL = "https://example.com/$lang/Statistik#noMMenu"
+    static let RMBT_STATS_URL = "https://matuok.pantera.dev/lt/Statistik"
 
     static let RMBT_REPO_URL = "https://github.com/rtr-nettest/open-rmbt-ios"
-    static let RMBT_DEVELOPER_URL = "https://example.com/"
-    static let RMBT_DEVELOPER_NAME = "your name"
+    static let RMBT_DEVELOPER_URL = "https://matuok.pantera.dev/"
+    static let RMBT_DEVELOPER_NAME = "Lexita"
 
     // Current TOS version. Bump to force displaying TOS to users again.
     static let RMBT_TOS_VERSION = 6

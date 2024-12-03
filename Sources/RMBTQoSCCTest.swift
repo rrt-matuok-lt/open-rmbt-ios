@@ -14,7 +14,7 @@ enum Errors: Error {
 }
 
 // Superclass for all tests requiring a connection to the QoS control server (UDP, VoIP etc.)
-@objc class RMBTQoSCCTest: RMBTQoSTest, @unchecked Sendable {
+@objc class RMBTQoSCCTest: RMBTQoSTest {
 
     @objc private(set) var controlConnectionParams: RMBTQoSControlConnectionParams?
     @objc var controlConnection: RMBTQoSControlConnection?

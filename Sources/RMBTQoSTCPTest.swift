@@ -9,7 +9,7 @@
 import UIKit
 import CocoaAsyncSocket
 
-class RMBTQoSTCPTest: RMBTQoSIPTest, @unchecked Sendable {
+class RMBTQoSTCPTest: RMBTQoSIPTest {
 
     private var doneSem: DispatchSemaphore?
     private var response: String?
