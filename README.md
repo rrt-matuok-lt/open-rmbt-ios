@@ -1,3 +1,10 @@
+=== Lexita ===
+
+- Vertimu validavimas:
+ plutil -lint Resources/en.lproj/Localizable.strings
+
+- Kai kuriose vietose vertimai hardcodinti be vertimu. Pagrinde "Down", "Up", "Ping" 
+
 Open-RMBT iOS App
 =================
 
