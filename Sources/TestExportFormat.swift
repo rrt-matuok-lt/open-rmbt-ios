@@ -15,7 +15,7 @@ enum TestExportFormat {
 extension TestExportFormat {
     var urlPath: String {
         switch self {
-        case .pdf: "/export/pdf/de"
+        case .pdf: "/export/pdf/lt"
         case .xlsx, .csv: "/opentests/search"
         }
     }
