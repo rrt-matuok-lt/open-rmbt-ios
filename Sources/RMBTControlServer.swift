@@ -490,7 +490,7 @@ extension RMBTControlServer {
         return try await session.download(
             for: format.downloadRequest(
                 // baseURL: statisticServerURL ?? URL(string: "https://m01.netztest.at/RMBTStatisticServer")!,
-                baseURL: statisticServerURL ?? URL(string: "https://matuok.pantera.dev/RMBTStatisticServer")!,
+                baseURL: statisticServerURL ?? URL(string: "https://test.matuok.lt/RMBTStatisticServer")!,
                 openTestUUIDs: openTestUUIDs,
                 maxResults: openTestUUIDs.count > 1 ? min(openTestUUIDs.count, 100) : nil
             )
