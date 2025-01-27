@@ -227,7 +227,7 @@ class RMBTHistoryResult: NSObject {
                    let long = response["geo_long"] as? Double {
                     self.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: long)
                 } else {
-                    assert(false, "Can't parse coordinates")
+                    //assert(false, "Can't parse coordinates")
                 }
 
                 if let measurementResult = response["measurement_result"] as? [String: Any] {

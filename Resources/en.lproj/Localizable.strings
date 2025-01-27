@@ -86,7 +86,7 @@
 "Auto" = "Automatinis";
 
 /* Map overlay description */
-"Heatmap" = "Šilumos žemėlapis";
+"Heatmap" = "Karštųjų taškų žemėlapis";
 
 /* Google Maps Legal Notice nevigation title */
 "Legal Notice" = "Teisinis pranešimas";

@@ -1,309 +1,309 @@
-"ÜBERNEHMEN" = "ÜBERNEHMEN";
+"ÜBERNEHMEN" = "Priimti";
 
-"Options" = "Einstellungen";
+"Options" = "Parinktys";
 
-"Description" = "Beschreibung";
+"Description" = "Aprašymas";
 
-"Succeeded" = "Erfolgreich";
+"Succeeded" = "Pavyko";
 
-"Failed" = "Gescheitert";
+"Failed" = "Nepavyko";
 
-"Cancel" = "Abbrechen";
-
-/* History column */
-"Date" = "Datum";
+"Cancel" = "Atšaukti";
 
 /* History column */
-"Device" = "Gerät";
+"Date" = "Data";
+
+/* History column */
+"Device" = "Įrenginys";
 
 /* Sync dialog button */
-"Enter code" = "Code eingeben";
+"Enter code" = "Įveskite kodą";
 
 /* Sync alert title */
-"Enter sync code:" = "Codeeingabe:";
+"Enter sync code:" = "Įveskite sinchronizavimo kodą:";
 
 /* Sync success alert msg */
-"History synchronisation was successful." = "Verlauf wurde erfolgreich synchronisiert.";
+"History synchronisation was successful." = "Istorijos sinchronizavimas atliktas sėkmingai";
 
 /* History result section title */
-"Measurement" = "Messung";
+"Measurement" = "Matavimas";
 
 /* History result section title */
-"Weitere Details" = "Weitere Details";
+"Weitere Details" = "Daugiau informacijos";
 
 /* History result section title */
-"Network" = "Netz";
+"Network" = "Tinklas";
 
 /* History result section title */
-"Qualität" = "Qualität";
+"Qualität" = "Kokybė";
 
 /* History result section title */
-"Test details" = "Test Details";
+"Test details" = "Matavimo informacija";
 
 /* Sync success button */
-"Reload" = "Neu laden";
+"Reload" = "Įkelti iš naujo";
 
 /* Sync dialog button */
-"Request code" = "Code anfordern";
+"Request code" = "Prašyti kodo";
 
 /* Sync success alert title */
-"Success" = "Synchronisation erfolgreich";
+"Success" = "Pavyko";
 
 /* Sync alert button */
-"Sync" = "Sync";
+"Sync" = "Sinchronizuoti";
 
 /* Sync intro text */
-"To merge history from two different devices, request the sync code on one device and enter it on another device" = "Um die Messergebnisse von einem anderen Gerät zusammenzuführen, fordern Sie bitte das Sync-Code an dem anderen Gerät an und geben Sie es hier ein.";
+"To merge history from two different devices, request the sync code on one device and enter it on another device" = "Norėdami sujungti istoriją iš dviejų skirtingų įrenginių, paprašykite sinchronizavimo kodo viename įrenginyje ir įveskite jį kitame įrenginyje";
 
 /* Abort test alert title */
-"Abort Test" = "Abbrechen";
+"Abort Test" = "Nutraukti matavimą";
 
 /* Abort test alert title */
-"Continue" = "Fortfahren";
+"Continue" = "Tęsti";
 
 /* Display code alert button */
-"Copy code" = "Code kopieren";
+"Copy code" = "Nukopijuoti kodą";
 
 /* Abort test alert title */
-"Do you really want to abort the running test?" = "Wollen Sie den laufenden Test abbrechen?";
+"Do you really want to abort the running test?" = "Ar tikrai norite nutraukti pradėtą matavimą?";
 
 /* Display code alert button */
-"OK" = "OK";
+"OK" = "Gerai";
 
 /* Display code alert title */
-"Sync Code" = "Sync-Code";
+"Sync Code" = "Sinchronizacijos kodas";
 
 /* Text field placholder */
-"Code" = "Code";
+"Code" = "Kodas";
 
 /* Filter section title */
-"Network Type" = "Zugang";
+"Network Type" = "Tinklo tipas";
 
 /* Sync error alert button */
-"Dismiss" = "OK";
+"Dismiss" = "Atsisakyti";
 
 /* Map overlay description */
-"Auto" = "Automatisch";
+"Auto" = "Automatinis";
 
 /* Map overlay description */
-"Heatmap" = "Heatmap";
+"Heatmap" = "Karštųjų taškų žemėlapis";
 
 /* Google Maps Legal Notice nevigation title */
-"Legal Notice" = "Google Maps";
+"Legal Notice" = "Teisinis pranešimas";
 
 /* Table section header title */
-"Overlay" = "Kartenoverlay";
+"Overlay" = "Perdanga";
 
 /* Map overlay description */
-"Points" = "Punkte";
+"Points" = "Taškai";
 
 /* Footer status label */
-"Aborted" = "Abgebrochen";
+"Aborted" = "Nutraukta";
 
 /* Alert view button */
-"Close" = "Abbrechen";
+"Close" = "Uždaryti";
 
 /* Alert view title */
-"Connection Error" = "Verbindungsfehler";
+"Connection Error" = "Prisijungimo klaida";
 
 /* Alert view message */
-"Couldn't connect to test server." = "Es konnte keine Verbindung zum Testserver aufgebaut werden.";
+"Couldn't connect to test server." = "Nepavyko prisijungti prie matavimo serverio";
 
 /* Alert view title */
-"Error" = "Fehler";
+"Error" = "Klaida";
 
 /* Alert view button */
-"Repeat Test" = "Test wiederholen";
+"Repeat Test" = "Pakartoti matavimą";
 
 /* Alert view title */
-"Test aborted" = "Test abgebrochen";
+"Test aborted" = "Matavimas nutrauktas";
 
 /* Alert view message */
-"Test was aborted because the app went into background. Tests can only be performed while the app is running in foreground." = "Test wurde abgebrochen, weil die App in den Hintergrund gegangen ist. Um Tests vollständig durchzuführen, muss die App im Vordergrund laufen.";
+"Test was aborted because the app went into background. Tests can only be performed while the app is running in foreground." = "Matavimas buvo nutrauktas, nes aplikacija veikia fone. Matavimus galima atlikti tik tada, kai aplikacija veikia priekiniame plane.";
 
 /* Alert view message */
-"Test was completed, but the results couldn't be submitted to the test server." = "Test wurde abgeschlossen, aber die Ergebnisse konnten nicht zum Server geschickt werden.";
+"Test was completed, but the results couldn't be submitted to the test server." = "Matavimas buvo baigtas, bet rezultatų nepavyko pateikti matavimo serveriui.";
 
 /* Alert view message */
-"The connection to the test server was lost. Test aborted." = "Die Verbindung zum Testserver wurde abgebrochen.";
+"The connection to the test server was lost. Test aborted." = "Nutrūko ryšys su matavimo serveriu. Matavimas nutrauktas.";
 
 /* Alert view button */
-"Try Again" = "Erneut versuchen";
+"Try Again" = "Pabandyti iš naujo";
 
 /* Phase status label */
-"Fetching test parameters" = "Test-Parameter werden geladen...";
+"Fetching test parameters" = "Gaunami matavimo parametrai";
 
 /* Phase status label */
-"Finalizing" = "Finalisierung";
+"Finalizing" = "Baigiama";
 
 /* Phase status label */
-"Initializing Upload" = "Upload Initialisierung";
+"Initializing Upload" = "Pradedamas siuntimas";
 
 /* Phase status label */
-"Initializing" = "Initialisierung";
+"Initializing" = "Pradžia";
 
 /* Phase status label */
-"Pinging" = "Ping";
+"Pinging" = "Pinguojama";
 
 /* Phase status label */
-"Upload" = "Upload";
+"Upload" = "Siuntimas";
 
 /* Phase status label */
-"Waiting for test server" = "Warten auf den Testserver...";
+"Waiting for test server" = "Laukiama matavimo serverio";
 
 /* Test view label */
-"Connection" = "Verbindung";
+"Connection" = "Ryšys";
 
 /* Speed suffix */
-"Mbps" = "Mbit/s";
+"Mbps" = "Mbps";
 
 /* Phase status label */
-"Download" = "Download";
+"Download" = "Gavimas";
 
 /* Test intro screen title when thre's no connectivity */
-"No network connection available" = "Keine Netzwerkverbindung verfügbar";
+"No network connection available" = "Nėra tinklo ryšio";
 
 /* Map overlay description */
-"Shapes" = "PLZ";
+"Shapes" = "Formos";
 
 /* Measurement item title */
-"Quality tests" = "Qualitätstests";
+"Quality tests" = "Kokybės matavimai";
 
 /* QoS Details section header */
-"Information" = "Informationen";
+"Information" = "Informacija";
 
 /* Section header */
-"Details" = "Details";
+"Details" = "Išsami informacija";
 
 /* History result section title
    Phase status label */
 "QoS" = "QoS";
 
 /* Section header for successful test */
-"Test Failed" = "Test fehlgeschlagen";
+"Test Failed" = "Matavimas nepavyko";
 
 /* Section header for successful test */
-"Test Succeeded" = "Test erfolgreich";
+"Test Succeeded" = "Matavimas pavyko";
 
 /* QoS Details section header */
-"Tests" = "Tests";
+"Tests" = "Matavimai";
 
 /* Map overlay summary */
-"Map shows tests as community shapes" = "Karte zeigt Tests nach Gemeinden an";
+"Map shows tests as community shapes" = "Žemėlapyje matavimai pateikiami pagal bendruomenių formos";
 
 /* Map overlay summary */
-"Map shows tests as heatmap" = "Karte zeigt die Tests als Heatmap an";
+"Map shows tests as heatmap" = "Žemėlapyje matavimai atvaizduojami duomenų tankio žemėlapiu";
 
 /* Map overlay summary */
-"Map shows tests as points" = "Karte zeigt die Tests als Punkte an";
+"Map shows tests as points" = "Žemėlapyje matavimai atvaizduojami kaip taškai";
 
 /* Map overlay summary */
-"Map switches automatically between heatmap and points" = "Karte wechselt automatisch zwischen Heatmap und Punkten";
+"Map switches automatically between heatmap and points" = "Žemėlapis automatiškai persijungia tarp šilumos žemėlapio ir taškų";
 
 /* Section title in the map options view
    Title of the map options subview */
-"Map type" = "Kartentyp";
+"Map type" = "Žemėlapio tipas";
 
 /* Loop mode alert message */
-"You are about to start tests in loop mode. The distance is set to %@ meters. The waiting time between tests is %@ minutes." = "Sie sind dabei Tests im Wiederholungsmodus zu starten. Die Distanz beträgt %@ Meter. Die Wartezeit ist %@ Minuten.";
+"You are about to start tests in loop mode. The distance is set to %@ meters. The waiting time between tests is %@ minutes." = "Netrukus pradėsite matavimą ciklo režimu. Atstumas nustatytas į %@ metrai. Laukimo laikas tarp matavimų yra %@ minutės.";
 
 /* Loop mode details title */
-"Access" = "Zugang";
+"Access" = "Prieiga";
 
 /* Loop mode details title */
-"Data usage" = "Datenverbrauch";
+"Data usage" = "Duomenų naudojimas";
 
 /* Loop mode header title */
-"Previous test" = "Letzter Test";
+"Previous test" = "Ankstesnis matavimas";
 
 /* Screen title */
-"Loop Mode" = "Wiederholungsmodus";
+"Loop Mode" = "Ciklo režimas";
 
 /* Loop mode alert title */
-"Number of tests" = "Anzahl der Tests";
+"Number of tests" = "Matavimų skaičius";
 
 /* Loop mode alert button */
-"Start tests" = "Tests starten";
+"Start tests" = "Pradėkite matavimus";
 
 /* Intro screen button title */
-"Test Connection" = "Verbindung testen";
+"Test Connection" = "Matavimo ryšys";
 
 /* Confirmation dialog title 1/2 */
-"Activation and privacy" = "Aktivierung";
+"Activation and privacy" = "Aktyvinimas ir privatumas";
 
 /* Confirmation dialog title 1/2 */
-"Usage" = "Nutzung";
+"Usage" = "Naudojimas";
 
 /* Confirmation dialog subtitle */
-"Loop mode %@/2" = "Wiederholungsmodus %@/2";
+"Loop mode %@/2" = "Ciklo režimas %@/2";
 
 /* Loop Mode status */
-"Waiting" = "Warten";
+"Waiting" = "Laukiama";
 
 /* Loop mode details title */
-"Location" = "Standort";
+"Location" = "Vieta";
 
 /* A11 */
-"Start" = "Start";
-"History" = "Verlauf";
-"Statistics" = "Statistiks";
-"Map" = "Karte";
-"Collapse results" = "Ergebnisse einklappen";
-"Expand results" = "Ergebnisse erweitern";
-"Share result" = "Ergebnis teilen";
-"Start measurement now" = "Test starten";
-"Disable loop mode" = "Wiederholungsmodus deaktivieren";
-"Enable loop mode" = "Wiederholungsmodus aktivieren";
-"Settings" = "Einstellungen";
-"Show IPv4 address" = "IPv4 anzeigen";
-"Show IPv6 address" = "IPv6 anzeigen";
-"Show location" = "Standort anzeigen";
+"Start" = "Pradėti";
+"History" = "Istorija";
+"Statistics" = "Statistika";
+"Map" = "Žemėlapis";
+"Collapse results" = "Sutraukti rezultatus";
+"Expand results" = "Išplėsti rezultatus";
+"Share result" = "Pasidalinkite rezultatu";
+"Start measurement now" = "Pradėkite matavimą dabar";
+"Disable loop mode" = "Išjungti ciklo režimą";
+"Enable loop mode" = "Įjungti ciklo režimą";
+"Settings" = "Nustatymai";
+"Show IPv4 address" = "Rodyti IPv4 adresą";
+"Show IPv6 address" = "Rodyti IPv6 adresą";
+"Show location" = "Rodyti vietą";
 
-"video_telephony" = "Videotelefonie";
-"video_conferencing" = "Videokonferenzen";
-"cloud" = "Cloud";
-"video_uhd" = "Video UHD";
-"video_sd" = "Video SD";
-"video_hd" = "Video HD";
+"video_telephony" = "Vaizdo telefonija";
+"video_conferencing" = "Vaizdo konferencijos";
+"cloud" = "Debesis";
+"video_uhd" = "Vaizdo įrašas UHD";
+"video_sd" = "Vaizdo įrašas SD";
+"video_hd" = "Vaizdo įrašas HD";
 "voip" = "VoIP";
-"streaming_audio_streaming" = "Audiostreaming";
-"web" = "Web";
-"messaging" = "Messaging";
-"gaming_download" = "Spiele Download";
-"gaming" = "Spiele";
-"gaming_cloud" = "Spiele Cloud";
-"gaming_streaming" = "Spiele Streaming";
-"qos" = "QoS Tests";
+"streaming_audio_streaming" = "Garso transliacija";
+"web" = "Žiniatinklis";
+"messaging" = "Susirašinėjimas žinutėmis";
+"gaming_download" = "Žaidimų parsisiuntimas";
+"gaming" = "Žaidimai";
+"gaming_cloud" = "Žaidimų debesis";
+"gaming_streaming" = "Žaidimų transliacija";
+"qos" = "QoS matavimai";
 
-"text_button_decline" = "Abbrechen";
-"text_button_accept" = "Akzeptieren";
+"text_button_decline" = "Atmesti";
+"text_button_accept" = "Priimti";
 
-"title_loop_instruction_1" = "Aktivierung";
-"title_loop_instruction_2" = "Nutzung";
+"title_loop_instruction_1" = "Aktyvinimas";
+"title_loop_instruction_2" = "Naudojimas";
 
-"tos.agree" = "Akzeptieren";
-"tos.decline" = "Abbrechen";
-"tos.agreements.title" = "Ich stimme der Datenschutzerklärung und den Nutzungsbedingungen zu.";
+"tos.agree" = "Sutinku";
+"tos.decline" = "Nesutinku";
+"tos.agreements.title" = "Sutinku su Matuok.lt privatumo politika ir naudojimo sąlygomis.";
 
-"public_ip_address" = "Öffentliche Adresse";
-"private_ip_address" = "Lokale Adresse";
+"public_ip_address" = "Viešas kreipimasis";
+"private_ip_address" = "Privatus adresas";
 
-"title_loop_mode" = "Wiederholungsmodus";
+"title_loop_mode" = "Ciklo režimas";
 
 /* Location Dialog */
-"location_dialog_label_title" = "Standort";
-"location_dialog_label_position" = "Position";
-"location_dialog_label_accuracy" = "Genauigkeit";
-"location_dialog_label_age" = "Aktualität";
-"location_dialog_label_source" = "Quelle";
-"location_dialog_label_altitude" = "Höhe";
-"location_dialog_label_speed" = "Geschwindigkeit";
-"location_dialog_label_satellites" = "Satelliten";
-"location_dialog_label_location_progress_message" = "Der Standort wird bestimmt, bitte warten…";
-"open_gps_setting_dialog_label_gps_not_enabled" = "Standort nicht verfügbar. Möchten Sie die Standorteinstellungen ändern?";
-"open_gps_setting_dialog_label_open_gps_setting" = "Standort-Einstellungen öffnen";
-"open_gps_setting_dialog_label_cancel" = "Abbrechen";
-"location_dialog_not_available" = "Nicht verfügbar";
+"location_dialog_label_title" = "Vieta";
+"location_dialog_label_position" = "Padėtis";
+"location_dialog_label_accuracy" = "Tikslumas";
+"location_dialog_label_age" = "Amžius";
+"location_dialog_label_source" = "Šaltinis";
+"location_dialog_label_altitude" = "Aukštis virš jūros lygio";
+"location_dialog_label_speed" = "Sparta";
+"location_dialog_label_satellites" = "Palydovai";
+"location_dialog_label_location_progress_message" = "Nustatoma vieta, palaukite…";
+"open_gps_setting_dialog_label_gps_not_enabled" = "Vietos nustatymo paslaugos neįjungtos. Ar norėtumėte pakeisti vietos nustatymus?";
+"open_gps_setting_dialog_label_open_gps_setting" = "Atidarykite vietos nustatymus";
+"open_gps_setting_dialog_label_cancel" = "Atšaukti";
+"location_dialog_not_available" = "Nėra";
 "location_dialog_age" = "%1$s s";
 "location_dialog_accuracy" = "%1$s m";
 "location_dialog_speed" = "%1$s km/h";
@@ -312,135 +312,135 @@
 "location_location_direction_e" = "E";
 "location_location_direction_s" = "S";
 "location_location_direction_w" = "W";
-"open_location_permission_dialog_label_location_not_permitted" = "Standort nicht verfügbar. Zulassen, dass RTR-Netztest auf den Standort Ihres Geräts zugreift?";
-"open_location_permission_dialog_label_open_permission_setting" = "Einstellungen öffnen";
+"open_location_permission_dialog_label_location_not_permitted" = "Matuok.lt neleidžiama naudoti jūsų vietos. Ar norite leisti Matuok.lt naudoti jūsų buvimo vietą?";
+"open_location_permission_dialog_label_open_permission_setting" = "Atidarykite aplikacijos nustatymus";
 
 /* Menu Items */
-"menu_button_history" = "Verlauf";
+"menu_button_history" = "Istorija";
 
-"preferences_enter_code" = "Bitte geben Sie den Code ein";
+"preferences_enter_code" = "Įveskite kodą";
 
-"input_setting_dialog_ok" = "OK";
-"input_setting_dialog_cancel" = "Abbrechen";
-"button_sync_enter_code" = "Code eingeben";
+"input_setting_dialog_ok" = "Gerai";
+"input_setting_dialog_cancel" = "Atšaukti";
+"button_sync_enter_code" = "Įveskite kodą";
 
-"title_loop_mode" = "Wiederholungsmodus";
-"title_loop_count" = "Wählen Sie die Anzahl der Tests";
-"text_loop_start" = "Tests starten";
-"text_loop_mode" = "Neuer Test nach Wartezeit oder Zurücklegen der Distanz. Max. 2 Tage";
-"preferences_loop_mode_summary" = "Neuer Test nach Wartezeit oder Zurücklegen der Distanz. Max. 2 Tage";
-"preferences_loop_mode_min_delay" = "Wartezeit (in Minuten)";
-"preferences_loop_mode_max_movement" = "Distanz (in Metern)";
+"title_loop_mode" = "Ciklo režimas";
+"title_loop_count" = "Pasirinkite matavimų skaičių";
+"text_loop_start" = "Pradėkite matavimus";
+"text_loop_mode" = "Naujas matavimas po laukimo arba įveikus distanciją. Maks. 2 dienos";
+"preferences_loop_mode_summary" = "Naujas matavimas po laukimo laiko arba įveikus atstumą. Maks. 2 dienos";
+"preferences_loop_mode_min_delay" = "Laukimo laikas (minutėmis)";
+"preferences_loop_mode_max_movement" = "Atstumas (metrais)";
 
-"invalide_loop_mode_count" = "Invalid number of tests";
-"invalide_loop_mode_distance" = "Invalid waiting distance";
-"invalide_loop_mode_waiting_minutes" = "Invalid waiting minutes";
-"loop_mode_enter_value_between_format" = "Please enter a value between %i and %i";
+"invalide_loop_mode_count" = "Netinkamas matavimų skaičius";
+"invalide_loop_mode_distance" = "Netinkamas laukimo atstumas";
+"invalide_loop_mode_waiting_minutes" = "Netinkamas laukimo laikas";
+"loop_mode_enter_value_between_format" = "Įveskite reikšmę nuo %i iki %i";
 
-"loop_mode_next_test" = "Nächster Test";
-"loop_mode_minutes" = "Minuten";
-"loop_mode_meters" = "Meter";
-"loop_mode_no_gps" = "Kein GPS";
-"or" = "oder";
+"loop_mode_next_test" = "Kitas matavimas";
+"loop_mode_minutes" = "Minutės";
+"loop_mode_meters" = "Metrai";
+"loop_mode_no_gps" = "Nėra GPS";
+"or" = "ar";
 
-"loop_mode_finished" = "Netztest abgeschlossen!";
+"loop_mode_finished" = "Matuok.lt ciklo režimas baigtas!";
 "loop_mode_finished_description" = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquya.";
-"loop_continue_to_results" = "Weiter zum Ergebnis";
-"loop_run_again" = "Nochmals ausführen";
+"loop_continue_to_results" = "Peržiūrėti rezultatus<";
+"loop_run_again" = "Pakartoti iš naujo";
 
 /* History */
-"history.sync-modal-title.default" = "Synchronisieren";
-"history.sync-modal-title.sync-success" = "Erfolgreich";
-"history.sync-modal-description.default" = "Es besteht die Möglichkeit, Messergebnisse von anderen Endgeräten zusammenzuführen. Dazu müssen Sie einen bereits erhaltenen Synchronisations-Code eingeben oder einen neuen anfordern.";
-"history.sync-modal-description.enter-code" = "Geben Sie hier bitte den Code ein, den Sie auf Ihrem anderen Gerät angefordert haben.";
-"history.sync-modal-description.request-code" = "Bitte geben Sie den unten angezeigten Code auf dem anderen Gerät ein, um die Ergebnisse zu synchronisieren.";
-"history.sync-modal-description.sync-success" = "Die Synchronisierung war erfolgreich.";
-"The code must consist of twelve characters" = "Der Code muss aus zwölf Zeichen bestehen";
-"The devices are already synchronized with each other." = "Die Geräte sind bereits synchronisiert.";
-"The code you entered does not exist." = "Der eingegebene Code existiert nicht.";
-"history.result.connection" = "Zugang";
-"history.result.operator" = "Betreiber";
+"history.sync-modal-title.default" = "Sinchronizavimas";
+"history.sync-modal-title.sync-success" = "Pavyko";
+"history.sync-modal-description.default" = "Jūs turite galimybę perkelti rezultatus iš skirtingų įrenginių. Norėdami tai padaryti, turite įvesti jau turimą sinchronizavimo kodą arba paprašyti naujo.";
+"history.sync-modal-description.enter-code" = "Įveskite kodą, kurį gavote kitame įrenginyje.";
+"history.sync-modal-description.request-code" = "Norėdami sinchronizuoti rezultatus, kitame įrenginyje įveskite toliau pateiktą kodą.";
+"history.sync-modal-description.sync-success" = "Sinchronizavimas pavyko.";
+"The code must consist of twelve characters" = "Kodą turi sudaryti dvylika simbolių";
+"The devices are already synchronized with each other." = "Įrenginiai jau yra susinchronizuoti.";
+"The code you entered does not exist." = "Jūsų įvestas kodas neegzistuoja.";
+"history.result.connection" = "Tipas";
+"history.result.operator" = "Operatorius";
 
 /* Test */
-"test.network.label" = "Netzwerk";
-"test.technology.label" = "Technologie";
-"label_upload" = "Upload";
-"label_download" = "Download";
-"label_ping" = "Ping";
+"test.network.label" = "Tinklas";
+"test.technology.label" = "Technologijos";
+"label_upload" = "Siuntimas";
+"label_download" = "Gavimas";
+"label_ping" = "Delsa";
 
-"measurement_ping" = "Ping";
-"measurement_down" = "Down";
-"measurement_up" = "Up";
+"measurement_ping" = "Delsa";
+"measurement_down" = "Gavimas";
+"measurement_up" = "Siuntimas";
 
-"measurement_qos" = "Servicequalität (QoS)";
-"measurement_qos_website" = "Webseite";
-"measurement_qos_non_transparent_proxy" = "Transparente Verbindung";
+"measurement_qos" = "Paslaugos kokybė (QoS)";
+"measurement_qos_website" = "Tinklalapis";
+"measurement_qos_http_proxy" = "Nepakeistas turinys";
+"measurement_qos_non_transparent_proxy" = "Skaidrus ryšys";
 "measurement_qos_dns" = "DNS";
-"measurement_qos_tcp" = "TCP Ports";
-"measurement_qos_udp" = "UDP Ports";
-"measurement_qos_http_proxy" = "Unveränderter Inhalt";
-"measurement_qos_traceroute_masked" = "Traceroute";
+"measurement_qos_tcp" = "TCP prievadas";
+"measurement_qos_udp" = "UDP prievadas";
+"measurement_qos_traceroute_masked" = "Maršruto sekimas";
 "measurement_qos_voip" = "VoIP";
 
-"preferences_general_settings" = "Allgemeine Einstellungen";
-"preferences_advanced_settings" = "Erweiterte Einstellungen";
-"preferences_location" = "Standortberechtigung erteilen";
-"preferences_location_summary" = "Derzeit hat die App keine Standortberechtigung, Sie können die Berechtigung mit diesem Link in den Systemeinstellungen erteilen";
-"preferences_ipv4_only" = "Nur IPv4";
-"preferences_skip_qos" = "QoS Messung";
-"preferences_expert_mode" = "Expertenmodus";
-"preferences_loop_mode" = "Wiederholungsmodus";
-"preferences_loop_mode_enabled" = "Ermöglicht";
-"preferences_loop_mode_summary" = "Neuer Test nach Wartezeit oder Zurücklegen der Distanz. Max. 2 Tage";
-"preferences_loop_mode_min_delay" = "Wartezeit (in Minuten)";
-"preferences_loop_mode_max_movement" = "Distanz (in Metern)";
-"preferences_contact" = "Kontakt";
-"preferences_go_to_website" = "Website besuchen";
-"preferences_contact_us" = "E-Mail schreiben";
-"preferences_data_protection" = "Datenschutzerklärung und Nutzungsbedingungen";
-"preferences_additional_Information" = "Weitere Informationen";
-"preferences_client_uuid" = "Client UUID";
-"preferences_test_cases" = "Durchgeführte Tests";
-"preferences_version" = "Version";
-"preferences_about" = "Über die App";
-"preferences_developed_by" = "Entwickelt von";
-"preferences_source_code" = "Source Code";
+"preferences_general_settings" = "Bendrieji nustatymai";
+"preferences_advanced_settings" = "Išplėstiniai nustatymai";
+"preferences_location" = "Įgalinti įrenginio buvimo vietos leidimą";
+"preferences_location_summary" = "Įrenginio buvimo vietos leidimas išjungtas, jį galite įjungti naudodami šią nuorodą sistemos nustatymuose";
+"preferences_ipv4_only" = "Tik IPv4";
+"preferences_skip_qos" = "QoS matavimas";
+"preferences_expert_mode" = "Eksperto režimas";
+"preferences_loop_mode" = "Ciklo režimas";
+"preferences_loop_mode_enabled" = "Įjungta";
+"preferences_loop_mode_summary" = "Naujas matavimas po laukimo laiko arba įveikus atstumą. Maks. 2 dienos";
+"preferences_loop_mode_min_delay" = "Laukimo laikas (minutėmis)";
+"preferences_loop_mode_max_movement" = "Atstumas (metrais)";
+"preferences_contact" = "Susisiekite";
+"preferences_go_to_website" = "Eikite į svetainę";
+"preferences_contact_us" = "Susisiekite su mumis";
+"preferences_data_protection" = "Privatumo politika ir naudojimo sąlygos";
+"preferences_additional_Information" = "Papildoma informacija";
+"preferences_client_uuid" = "Kliento UUID";
+"preferences_test_cases" = "Atliktų matavimų skaičius";
+"preferences_version" = "Versija";
+"preferences_about" = "Apie";
+"preferences_developed_by" = "Sukūrė";
+"preferences_source_code" = "Šaltinio kodas";
 
-"preferences_debug_options" = "Debug-Optionen";
-"preferences_ipv6_only" = "Nur IPv6";
+"preferences_debug_options" = "Derinimo parinktys";
+"preferences_ipv6_only" = "Tik IPv6";
 
-"preferences_developer_control_server" = "Control-Server";
-"preferences_override_control_enabled" = "Control-Server überschreiben";
-"preferences_override_control_server_host" = "Control Host";
-"preferences_override_control_server_port" = "Control Port";
-"preferences_override_control_server_ssl" = "Control SSL";
+"preferences_developer_control_server" = "Valdymo serveris";
+"preferences_override_control_enabled" = "Keisti valdymo serverį";
+"preferences_override_control_server_host" = "Valdymo serverio adresas";
+"preferences_override_control_server_port" = "Valdymo serverio prievadas";
+"preferences_override_control_server_ssl" = "Valdymo serverio SSL";
 
-"preferences_developer_logging" = "Protokollierung";
-"preferences_developer_logging_enabled" = "Protokollierung aktivieren";
-"preferences_developer_logging_summary" = "Protokollnachrichten werden per UDP an das ausgewählte Ziel gesendet.";
-"preferences_developer_loggind_host" = "Protokollierung Host";
-"preferences_developer_loggind_port" = "Protokollierung Port";
+"preferences_developer_logging" = "Prisijungimas";
+"preferences_developer_logging_enabled" = "Įgalinti registravimą";
+"preferences_developer_logging_summary" = "Žurnalo pranešimai bus siunčiami į pasirinktą paskirties vietą per UDP.";
+"preferences_developer_loggind_host" = "Registravimo serveris";
+"preferences_developer_loggind_port" = "Registravimo prievadas";
 
-"preferences_qos_measurement_only_after_some_time" = "Nur alle 2 Stunden";
-"preferences_qos_measurement_only_after_some_time_summary" = "Keine neue QoS-Messung, wenn die letzte vor weniger als 2 Stunden durchgeführt wurde.";
+"preferences_qos_measurement_only_after_some_time" = "Tik po 2 val";
+"preferences_qos_measurement_only_after_some_time_summary" = "Neatlikite naujų QoS matavimų, jei paskutinis buvo atliktas mažiau nei prieš 2 valandas.";
 
-"button_accept.title" = "ÜBERNEHMEN";
+"button_accept.title" = "PRIIMTI";
 
-"map.map_view" = "Kartenansicht";
-"map.cart_details" = "Kartendetails";
+"map.map_view" = "Žemėlapio išvaizda";
+"map.cart_details" = "Perdangos tipas";
 
-"map_style_hybrid" = "Hybrid";
-"map_style_satellite" = "Satellite";
-"map_style_standard" = "Standard";
+"map_style_hybrid" = "Hibridinis";
+"map_style_satellite" = "Palydovas";
+"map_style_standard" = "Standartinis";
 
-"map_layer_communities" = "Gemeinden";
-"map_layer_points" = "Punkte";
-"map_layer_automatic" = "Automatisch";
+"map_layer_communities" = "Bendruomenės";
+"map_layer_points" = "Taškai";
+"map_layer_automatic" = "Automatinis";
 
-"menu_button_statistics" = "Statistik";
+"menu_button_statistics" = "Statistika";
 
-"text_ip_address_not_available" = "Die Adresse nicht verfügbar";
-"start_test_button_help_message" = "Drücken Sie den Knopf um den Test zu starten";
-"RTR-NetTest" = "RTR-Netztest";
+"text_ip_address_not_available" = "Adresas nepasiekiamas";
+"start_test_button_help_message" = "Paspauskite mygtuką, kad pradėtumėte matavimą dabar!";
+"RTR-NetTest" = "Matuok.lt";
 
-"Export data" = "Exportieren";
+"Export data" = "Eksportuoti";
