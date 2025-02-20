@@ -64,14 +64,16 @@ class RMBTTOSViewController: UIViewController {
             webView.topAnchor.constraint(equalTo: self.view.topAnchor),
             webView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
         ])
-        
         self.navigationItem.titleView = titleLabel
         
-        guard let path = RMBTControlServer.shared.termsAndConditions.url,
-            let url = URL(string: path)
-        else { return }
+        /// Lexita: fallback i sita url jei is /RMBTControlServer/settings gaunamas null
+        var url = URL(string: "https://test.matuok.lt/lt/tc_ios.html")
+
+        if let tosUrl = RMBTControlServer.shared.termsAndConditions.url {
+             url = URL(string: tosUrl)
+        }
         
-        webView.load(URLRequest(url: url))
+        webView.load(URLRequest(url: url!))
         webView.scrollView.delegate = self
         bottomConstraint.constant = -300
         

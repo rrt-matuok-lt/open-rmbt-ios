@@ -75,10 +75,11 @@ class RMBTHelpers: NSObject {
     
     
     static func RMBTPreferredLanguage() -> String {
-        let mostPreferredLanguage = Locale.preferredLanguages.first
-        guard let language = mostPreferredLanguage?.components(separatedBy: "-").first?.lowercased()
-        else { return "en" }
-        return language
+        return "lt"
+        // let mostPreferredLanguage = Locale.preferredLanguages.first
+        // guard let language = mostPreferredLanguage?.components(separatedBy: "-").first?.lowercased()
+        // else { return "lt" }
+        // return language
     }
     
     // Removes all trailing \n or \r
@@ -107,11 +108,14 @@ class RMBTHelpers: NSObject {
     // Replaces $lang in template with de if current local is german, en otherwise
     static func RMBTLocalize(urlString: String) -> String {
         if urlString.range(of: "$lang") != nil {
-            var lang = RMBTHelpers.RMBTPreferredLanguage()
-            if (!(lang == "de" || lang == "en")) {
-                lang = "en"
-            }
+            var lang = "lt"
+            // var lang = RMBTHelpers.RMBTPreferredLanguage()
+            // if (!(lang == "de" || lang == "en")) {
+            //     lang = "en"
+            // }
             return urlString.replacingOccurrences(of: "$lang", with: lang)
+        } else if urlString.range(of: "/en/") != nil {
+            return urlString.replacingOccurrences(of: "/en/", with: "/lt/")
         } else {
             return urlString
         }

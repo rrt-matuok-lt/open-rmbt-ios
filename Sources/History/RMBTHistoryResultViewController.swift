@@ -307,13 +307,13 @@ extension RMBTHistoryResultViewController: UITableViewDelegate, UITableViewDataS
             let speedGraphsCell = tableView.dequeueReusableCell(withIdentifier: RMBTHistorySpeedGrapshCell.ID, for: indexPath) as! RMBTHistorySpeedGrapshCell
             var graphs: [(title: String, value: NSObject)] = []
             if let graph = historyResult.downloadGraph {
-                graphs.append(("Download", graph))
+                graphs.append(("Gavimas", graph))
             }
             if let graph = historyResult.uploadGraph {
-                graphs.append(("Upload", graph))
+                graphs.append(("Siuntimas", graph))
             }
             if let graph = historyResult.pingGraph {
-                graphs.append(("Ping", graph))
+                graphs.append(("Delsa", graph))
             }
             speedGraphsCell.graphs = graphs
             speedGraphsCell.selectionStyle = .none

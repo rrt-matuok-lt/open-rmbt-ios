@@ -114,6 +114,14 @@ final class RMBTMapOptions {
     public init(response: MapOptionResponse, isSkipOperators: Bool = false, defaultMapViewType: RMBTMapOptionsMapViewType = .standard) {
         
         mapFilters = response.mapFilters.map({ RMBTMapOptionsFilter(with: $0.toJSON()) }).sorted(by: { $0.iconValue > $1.iconValue })
+        
+        /// Lexita: force translate "Map type" title. Is serverio puses niekaip negalejo
+        for mapFilter in mapFilters {
+            if(mapFilter.title == "Map type"){
+                mapFilter.title = "Žemėlapio tipas"
+            }
+        }
+        
         mapFilters = mapFilters.filter({ filter in
             return filter.iconValue != "MAP_APPEARANCE" && filter.iconValue != "OVERLAY_TYPE"
         })

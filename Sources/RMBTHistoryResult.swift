@@ -207,11 +207,11 @@ class RMBTHistoryResult: NSObject {
                     var measurementItems: [RMBTHistoryResultItem] = []
                     measurementItems = measurement.map({ r in
                         let item = RMBTHistoryResultItem(with: r)
-                        if (item.title == "Download") {
+                        if (item.title == "" || item.title == "Download") {
                             self.downloadSpeedClass = item.classification
-                        } else if (item.title == "Upload") {
+                        } else if (item.title == "Siuntimas" || item.title == "Upload") {
                             self.uploadSpeedClass = item.classification
-                        } else if (item.title == "Ping") {
+                        } else if (item.title == "Delsa" || item.title == "Ping") {
                             self.pingClass = item.classification
                         }
                         return item
@@ -363,7 +363,7 @@ class RMBTHistoryResult: NSObject {
 extension RMBTHistoryResult {
     var timeStringIn24hFormat: String? {
         get {
-            let df = DateFormatter(withFormat: "dd.MM.yy, HH:mm:ss", locale: Locale.current.language.languageCode?.identifier ?? "en_US")
+            let df = DateFormatter(withFormat: "dd.MM.yy, HH:mm:ss", locale: "lt_LT"/*Locale.current.language.languageCode?.identifier ?? "en_US"*/)
             
             return df.string(from: timestamp)
         }

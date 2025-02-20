@@ -22,9 +22,10 @@ class RMBTMapOptionsFilterViewController: UIViewController {
         self.tableView.register(UINib(nibName: RMBTMapOptionsFilterCell.ID, bundle: nil), forCellReuseIdentifier: RMBTMapOptionsFilterCell.ID)
         self.titleLabel.text = self.filter?.title
         
-        self.tableView.tintColor = UIColor(red: 89.0/255.0, green: 178.0/255.0, blue: 0.0, alpha: 1.0)
+        self.tableView.tintColor = UIColor(red: 1.0, green: 113.0/255.0, blue: 10.0/255.0, alpha: 1.0)
         
         self.confirmButton.setTitle(.accept, for: .normal)
+        self.confirmButton.backgroundColor = UIColor(red: 1.0, green: 113.0/255.0, blue: 10.0/255.0, alpha: 1.0)
     }
     
     @IBAction func confirmButtonClick(_ sender: Any) {

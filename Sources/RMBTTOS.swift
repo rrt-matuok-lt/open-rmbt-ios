@@ -29,11 +29,17 @@ final class RMBTTOS: NSObject {
     }
 
     func isCurrentVersionAccepted(with settings: SettingsResponse.Settings.TermsAndConditions) -> Bool {
-        return lastAcceptedVersion >= settings.version
+        /// Lexita: Laikom 0 versija kaip tiesiog nepriimta. On accept, vietoj 0 saugosim 1
+        return lastAcceptedVersion != 0 && lastAcceptedVersion >= settings.version
     }
 
     public func acceptCurrentVersion(with settings: SettingsResponse.Settings.TermsAndConditions) {
         lastAcceptedVersion = settings.version
+        if(lastAcceptedVersion == 0){
+            /// Lexita: serveris vis grazina versija null (isparsinama kaip 0), del to jei acceptina 0 versija, settinu kaip 1
+            Log.logger.debug("[REDLOG] lastAcceptedVersion is 0, setting 1")
+            lastAcceptedVersion = 1
+        }
         UserDefaults.storeTOSVersion(lastAcceptedVersion:lastAcceptedVersion)
     }
 }

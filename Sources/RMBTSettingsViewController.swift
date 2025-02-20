@@ -470,6 +470,10 @@ class RMBTSettingsViewController: UITableViewController {
                 if let tosUrl = RMBTControlServer.shared.termsAndConditions.url,
                     let url = URL(string: tosUrl) {
                     self.openURL(url)
+                } else {
+                    /// Lexita: fallback i sita url jei is /RMBTControlServer/settings gaunamas null
+                    let url = URL(string: "https://test.matuok.lt/lt/tc_ios.html")
+                    self.openURL(url)
                 }
                 default: assert(false, "Invalid row")
             }
@@ -477,10 +481,15 @@ class RMBTSettingsViewController: UITableViewController {
             switch (indexPath.row) {
             case 0: self.openURL(URL(string: RMBTConfig.RMBT_REPO_URL))
             case 1: self.openURL(URL(string: RMBTConfig.RMBT_DEVELOPER_URL))
-            case 2: if let tosUrl = RMBTControlServer.shared.termsAndConditions.url,
+            case 2: 
+                    if let tosUrl = RMBTControlServer.shared.termsAndConditions.url,
                        let url = URL(string: tosUrl) {
                        self.openURL(url)
-                   }
+                    } else {
+                        /// Lexita: fallback i sita url jei is /RMBTControlServer/settings gaunamas null
+                        let url = URL(string: "https://test.matuok.lt/lt/tc_ios.html")
+                        self.openURL(url)
+                    }
             default: break
             }
         }

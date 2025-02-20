@@ -11,8 +11,8 @@ import UIKit
 /// default qos socket character encoding
 let QOS_SOCKET_DEFAULT_CHARACTER_ENCODING: UInt = String.Encoding.utf8.rawValue
 
-public let DEFAULT_LANGUAGE = "en"
-public let PREFFERED_LANGUAGE = Bundle.main.preferredLocalizations.first ?? DEFAULT_LANGUAGE
+public let DEFAULT_LANGUAGE = "lt"
+public let PREFFERED_LANGUAGE = "lt"//Bundle.main.preferredLocalizations.first ?? DEFAULT_LANGUAGE
 
 public class RMBTConfig {
     public static let shared: RMBTConfig = {
@@ -21,8 +21,8 @@ public class RMBTConfig {
         return config
     }()
     
-    var RMBT_USE_MAIN_LANGUAGE: Bool { return false }
-    var RMBT_MAIN_LANGUAGE: String { return "en" }
+    var RMBT_USE_MAIN_LANGUAGE: Bool { return true }
+    var RMBT_MAIN_LANGUAGE: String { return "lt" }
     
     var RMBT_CONTROL_SERVER_URL: String {
         return "\(RMBT_URL_HOST)\(RMBT_CONTROL_SERVER_PATH)"
