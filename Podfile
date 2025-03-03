@@ -6,8 +6,9 @@ inhibit_all_warnings!
 use_frameworks!
 
 target 'RMBT' do
-  pod 'Alamofire'
-  pod 'AlamofireObjectMapper'
+  pod 'Alamofire', '~> 5.9.0'
+  # pod 'AlamofireObjectMapper'
+  pod 'ObjectMapper'
   pod 'XCGLogger'
   pod 'CocoaAsyncSocket'
   

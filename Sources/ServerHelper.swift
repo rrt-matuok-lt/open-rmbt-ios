@@ -16,7 +16,7 @@
 
 import Foundation
 import Alamofire
-import AlamofireObjectMapper
+// import AlamofireObjectMapper
 import ObjectMapper
 
 ///
@@ -89,30 +89,32 @@ class ServerHelper {
                     return "Response for \(path): \n\(response.result.value)"
                 }
             }*/
-            .responseArray(completionHandler: { (response: AFDataResponse<[T]>) in
-                switch response.result {
-                case .success(let responseArray):
-                    Log.logger.debug {
-                        debugPrint(response)
+        
+        
+           .responseArray(completionHandler: { (response: AFDataResponse<[T]>) in
+               switch response.result {
+               case .success(let responseArray):
+                   Log.logger.debug {
+                       debugPrint(response)
 
-                        if let jsonString = Mapper().toJSONString(responseArray, prettyPrint: true) {
-                            return "Response for \(path) with object: \n\(jsonString)"
-                        }
+                       if let jsonString = Mapper().toJSONString(responseArray, prettyPrint: true) {
+                           return "Response for \(path) with object: \n\(jsonString)"
+                       }
 
-                        return "Response for \(path) with object: <json serialization failed>"
-                    }
+                       return "Response for \(path) with object: <json serialization failed>"
+                   }
 
-                    success(responseArray)
-                case .failure(let error):
-                    Log.logger.debug("\(error)") // TODO: error callback
+                   success(responseArray)
+               case .failure(let error):
+                   Log.logger.debug("\(error)") // TODO: error callback
 
-                    /*if let responseObj = response.result.value as? String {
-                     Log.logger.debug("error msg from server: \(responseObj)")
-                     }*/
+                   /*if let responseObj = response.result.value as? String {
+                    Log.logger.debug("error msg from server: \(responseObj)")
+                    }*/
 
-                    failure(error as Error)
-                }
-            })
+                   failure(error as Error)
+               }
+           })
             
 //            .responseArray { (response: DataResponse<[T]>, error) in
 //                switch response.result {
@@ -141,6 +143,8 @@ class ServerHelper {
 //                    failure(error as Error)
 //                }
 //            }
+        
+        
     }
 
     ///

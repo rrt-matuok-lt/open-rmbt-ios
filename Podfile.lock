@@ -1,8 +1,5 @@
 PODS:
-  - Alamofire (5.0.0-rc.2)
-  - AlamofireObjectMapper (6.2.0):
-    - Alamofire (= 5.0.0-rc.2)
-    - ObjectMapper (~> 3.5.1)
+  - Alamofire (5.9.1)
   - BCGenieEffect (1.1)
   - BlocksKit/Core (2.2.6)
   - BlocksKit/DynamicDelegate (2.2.6)
@@ -36,8 +33,8 @@ PODS:
   - ObjcExceptionBridging (7.1.5):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 7.1.5)
   - ObjcExceptionBridging/ObjcExceptionBridging (7.1.5)
-  - ObjectMapper (3.5.3)
-  - ReachabilitySwift (5.2.3)
+  - ObjectMapper (4.4.2)
+  - ReachabilitySwift (5.2.4)
   - TUSafariActivity (1.0.4)
   - XCGLogger (7.1.5):
     - XCGLogger/Core (= 7.1.5)
@@ -45,8 +42,7 @@ PODS:
     - ObjcExceptionBridging
 
 DEPENDENCIES:
-  - Alamofire
-  - AlamofireObjectMapper
+  - Alamofire (~> 5.9.0)
   - BCGenieEffect
   - BlocksKit/MessageUI (from `https://github.com/sglushchenko/BlocksKit`, branch `without_UIWebView`)
   - BlocksKit/UIKit (from `https://github.com/sglushchenko/BlocksKit`, branch `without_UIWebView`)
@@ -54,6 +50,7 @@ DEPENDENCIES:
   - KeychainAccess
   - libextobjc/EXTKeyPathCoding
   - "MaterialComponents/Tabs+TabBarView"
+  - ObjectMapper
   - ReachabilitySwift
   - TUSafariActivity
   - XCGLogger
@@ -61,7 +58,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - AlamofireObjectMapper
     - BCGenieEffect
     - CocoaAsyncSocket
     - KeychainAccess
@@ -85,8 +81,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/sglushchenko/BlocksKit
 
 SPEC CHECKSUMS:
-  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
-  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   BCGenieEffect: 3efb235716f121caa6b26040bfd0ae11e1bae4b4
   BlocksKit: 5fae06c13638d9fdb0bbddca3dabfe8f5aa735c5
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
@@ -95,11 +90,11 @@ SPEC CHECKSUMS:
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   ObjcExceptionBridging: d3d37d62981bb7f252ecb31b62d7e23a96bbfb8a
-  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
-  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+  ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
   XCGLogger: 399c5885210b4e2ad79d9f7a29b105d672ef724f
 
-PODFILE CHECKSUM: 27dac78395e8bfd9da390d0256ff1d40705acc8a
+PODFILE CHECKSUM: 1ec152410f044a56ea778700660cf0e3b3a18017
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

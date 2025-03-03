@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0328E0743F9D322067F94E41 /* Pods_RMBT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2A0238300495ED984A3CF3 /* Pods_RMBT.framework */; };
+		04DD7FE92D686F09002C1E01 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD7FE82D686F09002C1E01 /* AlamofireObjectMapper.swift */; };
 		361443482732793E00D0FC26 /* RMBTHistorySyncModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361443472732793D00D0FC26 /* RMBTHistorySyncModalViewController.swift */; };
 		3628C539275639E40001E885 /* RMBTHistoryQoSTitledResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3628C538275639E40001E885 /* RMBTHistoryQoSTitledResultCell.xib */; };
 		3628C53B27563AA40001E885 /* RMBTHistoryQoSTitledResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628C53A27563AA40001E885 /* RMBTHistoryQoSTitledResultCell.swift */; };
@@ -301,6 +302,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04DD7FE82D686F09002C1E01 /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapper.swift; sourceTree = "<group>"; };
 		1F9C078F216F751C00F1FC10 /* RMBT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RMBT.entitlements; sourceTree = "<group>"; };
 		361443472732793D00D0FC26 /* RMBTHistorySyncModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBTHistorySyncModalViewController.swift; sourceTree = "<group>"; };
 		3628C538275639E40001E885 /* RMBTHistoryQoSTitledResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMBTHistoryQoSTitledResultCell.xib; sourceTree = "<group>"; };
@@ -900,6 +902,7 @@
 		C7DE1481173E8F610079477A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				04DD7FE82D686F09002C1E01 /* AlamofireObjectMapper.swift */,
 				E9C4BA282714110D00D6FAE8 /* Intro */,
 				E93FB10426F4BCD200DD24CD /* Network */,
 				E93FB10026F4BA5E00DD24CD /* Test */,
@@ -1733,6 +1736,7 @@
 				E9C13F7F27298A6800DA60D4 /* RMBTSettingsViewController.swift in Sources */,
 				E9400F1026BAE3460067273A /* OperatorsRequest.swift in Sources */,
 				E9E993E626EB27BD00E7EED6 /* RMBTQOSListCell.swift in Sources */,
+				04DD7FE92D686F09002C1E01 /* AlamofireObjectMapper.swift in Sources */,
 				E94EC071276E298A00DB0B21 /* RMBTTestResult.swift in Sources */,
 				E9400EFE26BA79100067273A /* BasicRequest.swift in Sources */,
 				E9400EEB26BA6B600067273A /* RMBTControlServer.swift in Sources */,
@@ -2070,7 +2074,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = D2257HCMX3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2090,7 +2094,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.0;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = lt.lextia.matuoklt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2114,7 +2118,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = D2257HCMX3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2130,7 +2134,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lt.lextia.matuoklt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
