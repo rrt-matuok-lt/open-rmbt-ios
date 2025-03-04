@@ -440,5 +440,5 @@ extension RMBTHistoryIndexViewController: UITableViewDataSource, UITableViewDele
 // MARK: Localizations
 
 private extension String {
-    static let title = NSLocalizedString("menu_button_history", comment: "History")
+    static let title = NSLocalizedString("menu_button_history", comment: "Istorija")
 }

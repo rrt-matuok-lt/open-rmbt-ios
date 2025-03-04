@@ -45,7 +45,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NrU-qU-p5u" customClass="RMBTStatsViewController" customModule="RMBT" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Statistics" image="tab_stats" id="yzM-Br-Dak">
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="localizableAccessibilityLabel" value="Statistics"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="localizableAccessibilityLabel" value="Statistika"/>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
                     <toolbarItems/>
@@ -2288,7 +2288,7 @@
         <scene sceneID="SFY-jo-ReR">
             <objects>
                 <navigationController storyboardIdentifier="kMapNavigationControllerID" navigationBarHidden="YES" id="tkX-Jf-9ub" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" image="tab_map" id="cx5-UR-fhg">
+                    <tabBarItem key="tabBarItem" title="Žemėlapis" image="tab_map" id="cx5-UR-fhg">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath="localizableAccessibilityLabel" value="Map"/>
                         </userDefinedRuntimeAttributes>
@@ -3277,9 +3277,9 @@
         <scene sceneID="iTy-PB-SNH">
             <objects>
                 <navigationController id="rpx-4g-zab" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="History" image="tab_history" id="VP0-Ij-zcN">
+                    <tabBarItem key="tabBarItem" title="Istorija" image="tab_history" id="VP0-Ij-zcN">
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="string" keyPath="localizableAccessibilityLabel" value="History"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="localizableAccessibilityLabel" value="Istorija"/>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
                     <toolbarItems/>
@@ -3301,7 +3301,7 @@
         <scene sceneID="Dov-Du-zmC">
             <objects>
                 <navigationController id="Vug-MK-vw0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Test" image="tab_test" id="mJf-68-Rhf">
+                    <tabBarItem key="tabBarItem" title="Matavimas" image="tab_test" id="mJf-68-Rhf">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath="localizableAccessibilityLabel" value="Start"/>
                         </userDefinedRuntimeAttributes>
